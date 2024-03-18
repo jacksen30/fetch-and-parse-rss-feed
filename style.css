@@ -1,0 +1,92 @@
+/* CSS RESET - undo the varying default styling applied by web browsers to HTML elements */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  /* text-rendering: optimizeSpeed; */
+  line-height: 1.5;
+
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* sr-only is for screen reader use only - The element will be visually hidden but will still be read by screen reader technology. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
+/*  A big shout out to Andy Bell at https://andy-bell.co.uk/about/
+    For his great article " A Modern CSS Reset " I recommend giving it a read at https://andy-bell.co.uk/a-modern-css-reset/
+*/
+
+
+/* MY CUSTOM CSS RULES BELOW */
+
+/* Reusable Custom CSS Variables */
+:root {
+  --color1: #16AA2D;      /* Button Background */
+  --color2: #303030;      /* Card Title */
+  --color3: #808080;      /* Card Text */
+}
+
+html {
+  scroll-behavior: smooth;
+}
