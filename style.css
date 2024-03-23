@@ -90,3 +90,9 @@ select {
 html {
   scroll-behavior: smooth;
 }
+
+.fuel-location-wrapper {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 15px 15px;
+}
